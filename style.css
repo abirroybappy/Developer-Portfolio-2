@@ -1,90 +1,191 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.top-section{
-    background-image: url( images/top-banner.png);
+
+.top-section {
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 3%;
 }
-.second-section{
-    background-image: url( images/dream-bg.png);
+
+.second-section {
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-bottom: 5%;
 }
-.flex{
+
+.flex {
     display: flex;
-   
+
 }
-.orange{
+
+.orange {
     color: orange;
 }
 
-h1{
+h1 {
     font-size: 50px;
 }
 
-h4{
+h4 {
     font-size: 19px;
 }
-.button{
-   text-decoration: none;
-   color: white;
-   font-weight: 700;
-   border-radius: 5px;
-   padding: 10px 40px;
-   background-image: linear-gradient(45deg,lightsalmon,tomato); 
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
 
-.helf-width{
+.helf-width {
     width: 50%;
     padding-left: 6%;
     padding-right: 5%;
 
 }
-.helf-width img{
+
+.helf-width img {
     width: 100%;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
-p{
+p {
     color: #696969;
 }
 
-.web{
+.web {
     width: 40%;
     border-left: 7px solid;
-min-height: 50%;
+    min-height: 50%;
     margin-left: 5%;
-    padding-left: 2% ;
+    padding-left: 2%;
     padding-bottom: 5%;
-    box-shadow: 10px 10px 40px  rgb(128, 128, 128) ;
+    box-shadow: 10px 10px 40px rgb(128, 128, 128);
     border-radius: 10px;
-   
+
 
 }
 
-.stack-web{
-    border-image:linear-gradient(lightsalmon,tomato); 
+.stack-web {
+    border-image: linear-gradient(lightsalmon, tomato);
     border-image-slice: 1;
 }
 
-.baby-web{
-    border-image:linear-gradient(#0007FF,#00F9FF); 
+.baby-web {
+    border-image: linear-gradient(#0007FF, #00F9FF);
     border-image-slice: 1;
 }
 
-.experiences-section{
+.experiences-section {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     margin-bottom: 10%;
 }
 
-footer P{
+footer P {
     text-align: center;
+}
+
+
+
+.my-skills {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px;
+
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.html {
+    width: 90%;
+    background-image: linear-gradient(45deg, rgb(255, 192, 167), rgb(250, 70, 39));
+    border-radius: 50px;
+}
+
+.css {
+    width: 80%;
+    background-image: linear-gradient(45deg, #ff8ab9, #f5136d);
+    border-radius: 50px;
+}
+
+.js {
+    width: 65%;
+    background-image: linear-gradient(45deg, #fddd8d, #ffb909);
+    border-radius: 50px;
+}
+
+.php {
+    width: 60%;
+    background-image: linear-gradient(45deg, #b3b1b1, #5f5e5e);
+    border-radius: 50px;
+}
+
+
+.contract-section{
+    margin-bottom: 10%;
+}
+
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(45deg, rgb(255, 203, 182), rgb(248, 46, 10));
+}
+
+
+.map{
+    width: 65%;
+    margin-left: 2%;
+}
+
+.form{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#message{
+    height: 150px;
+    
 }
